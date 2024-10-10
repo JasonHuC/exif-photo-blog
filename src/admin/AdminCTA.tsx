@@ -11,7 +11,6 @@ export default function AdminCTA() {
   const { isUserSignedIn } = useAppState();
 
   const [isUploading, setIsUploading] = useState(false);
-
   return (
     <div className="flex justify-center pt-4">
       {isUserSignedIn
